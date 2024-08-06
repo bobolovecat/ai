@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+video, canvas {
+    display: block;
+    width: 100vw!important;
+    height: 100vh!important;
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: screen;
+}
